@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(182, 205, 248);
+    text-align: center;
+    
+   
+    
+}
+.container{ 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.game{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    width:18vmin;
+    height:18vmin;
+    color:brown;
+    font-size: 8vmin;
+    }
+    button{
+        background-color: beige;
+        border-radius: 8px;
+        
+        border-color: black;
+    }
+    .reset{
+        
+    }
